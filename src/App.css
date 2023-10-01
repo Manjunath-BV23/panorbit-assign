@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  /* padding: 30px; */
 }
 
 .App-logo {
@@ -35,4 +36,87 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar {
+  background-color: navy;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 20vw;
+  height: 90vh;
+  border-radius: 20px;
+  list-style-type: none;
+}
+.navbar hr {
+  width: 80%;
+}
+.menu {
+  display: block;
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+}
+.page {
+  padding: 0px 50px;
+  width: 79vw;
+}
+.pageTop {
+  padding: 20px 0px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.pageTop .profile {
+  display: flex;
+  /* width: fit-content; */
+}
+.profile-pages{
+  display: flex;
+  padding: 30px;
+}
+.details {
+  display: flex;
+  padding-top: 40px;
+}
+.left {
+  width: 45%;
+  padding-right: 50px;
+}
+.right {
+  width: 54%;
+  padding-left: 50px;
+  border-left: 1px solid grey;
+}
+.home {
+  padding: 10%;
+  background-color: gray;
+  
+}
+.users {
+  width: 40%;
+  margin: auto;
+  border-radius: 20px;
+  background-color: white;
+  text-align: left;
+  
+}
+.user {
+  display: flex;
+  text-decoration: none;
+  gap: 15px;
+}
+.user img {
+  width: 30px;
+  border-radius: 50%;
+}
+.home .users .top {
+  padding: 10px;
+  text-align: center;
+  background-color: #cdced2;
+  border-radius: 20px 20px 0px 0px;
+}
+.home .users .bottom {
+  padding: 5px 30px;
+  height: 400px; 
+  overflow: scroll; 
 }
